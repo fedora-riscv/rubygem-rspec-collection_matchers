@@ -6,7 +6,7 @@
 
 Name: rubygem-%{gem_name}
 Version: 1.2.0
-Release: 4%{?dist}
+Release: 5%{?dist}
 Summary: Collection cardinality matchers
 License: MIT
 URL: https://github.com/rspec/rspec-collection_matchers
@@ -79,6 +79,9 @@ popd
 %{gem_instdir}/spec
 
 %changelog
+* Sat Jul 23 2022 Fedora Release Engineering <releng@fedoraproject.org> - 1.2.0-5
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_37_Mass_Rebuild
+
 * Fri Jan 21 2022 Fedora Release Engineering <releng@fedoraproject.org> - 1.2.0-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_36_Mass_Rebuild
 
